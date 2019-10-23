@@ -1,0 +1,13 @@
+__default__:
+  CPU: 1
+  mem: 10G
+  queue: long.q
+  time: '240:00:00'
+Hatchet:
+  queue: long.q@n112
+  CPU: 22
+genome_binning:
+  CPU: 22  
+SNP_calling_and_BAF:
+  CPU: 22
+  mem: 64G
